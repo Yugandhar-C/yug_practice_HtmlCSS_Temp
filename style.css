@@ -1,0 +1,197 @@
+*{
+    margin: 15px 20px;
+    padding: 0px;
+}
+
+/* header */
+
+body{
+    background-color: tomato;
+
+}
+div.headerDiv{
+     position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 20; 
+    margin: 0px;
+    padding: 0px;
+    /* z-index default value is 0 ; its used to move any layer top or down with there z-index value 
+     for example divA have z-index:5; && divB  have z-index:24 ;
+     then divA is  below divB ;
+     IT helps to set the priority of layers
+     
+    */
+}
+
+.header{
+    /* border: 1px solid rgb(36, 39, 212); */
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+}
+
+header.header ul.ul li.li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header.header ul.ul li.li{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#ul_ka_id{
+    height: 50px;
+    background-color: rgb(27, 134, 153);
+}
+
+
+
+
+/* row two start */
+
+/* filter  child1 */
+div.filter{
+     margin-left: 30px;
+    margin-right: 80px;
+    padding: 0px;
+    border: 2px solid blue;
+    width: 250px;
+    background-color: lightyellow;
+    height: 500px;
+    overflow:scroll;
+    position:fixed;
+    margin-top: 100px;
+    /* use overflow when data or element get overflow with respect to the parent size 
+     #scroll - give scroll bar and maintain the parent size
+     # hidden -  hide any data which is outoff parent size or scope
+    */
+}
+
+div.filter ul.filterUl {
+    display: block;
+    background-color: lightyellow;
+}
+
+div.filter ul.filterUl #li{
+    background-color: rgb(43, 158, 62);
+   
+    text-align: center;
+    /* align test in center as per as a parent space */
+  
+    list-style: none; 
+    /* for list style */  
+}
+
+
+/* row 2 child 2 */
+
+div.child2{
+    background-color: rgba(67, 228, 134, 0.747);
+    margin-left: 350px;
+    padding: 0px;
+    margin-top: 100px;
+    overflow:scroll;
+    height : 500px;
+}
+
+div.child3{
+    background-image: linear-gradient(to bottom , rgb(78, 16, 119) ,rgb(116, 179, 231));
+    margin-left: 350px;
+    padding: 0px;
+    margin-top: 100px;
+    overflow:scroll;
+    height : 500px;
+}
+
+
+div.main{
+    border: 2px solid green;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    background-color: rgba(190, 240, 185, 0.692);
+}
+
+/* row 2 ends */
+
+.sub2{
+    margin: 0px;
+    padding:0px;
+    color: black;
+    background-color: chartreuse;
+}
+
+.sub2:hover{
+    background-color: mistyrose;
+    cursor: pointer;
+    color: orange;
+    transform: scale(1.1);
+    display: none;
+
+}
+
+ 
+
+ .sub2:nth-child(2n):hover{
+     background-image: linear-gradient(to top, white,blue,yellow);
+     display: none;
+ }
+li.li{
+    list-style: none;
+    display: inline;
+    background-color: crimson;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+a{ 
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul{
+    background-color: rgba(233, 166, 84, 0.815);
+    display: flex;
+    justify-content: space-around;
+     margin: 5px 0px ;
+
+    padding: 0px;
+}
+
+/* footer start */
+
+footer.footer{
+    border:4px solid gray;
+    color: cornsilk;
+    font-size: 40px;
+    position: relative;
+    z-index: 20;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 200px;
+    height: 60px;
+   
+}
+
+
+footer.footer ul li a{
+     color: rgb(236, 234, 223);
+     margin: 0px;
+    padding: 0px; 
+  
+}
+
+
+
+
+
